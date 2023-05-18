@@ -62,6 +62,7 @@ namespace Hierarchial_Partition_CosmosDB
 
             Console.WriteLine($"The data is inserted via partitionkeybuilder class with RU {resp.RequestCharge}");
 
+            //directly calling createitemasync without explicitly calling the partitionkeybuilder 
 
             PaymentEvent paym2 = new PaymentEvent()
             {
@@ -77,12 +78,10 @@ namespace Hierarchial_Partition_CosmosDB
 
             Console.WriteLine($"The data is inserted without partitionbuilder class with RU {resp.RequestCharge}");
 
-            //reading an item with the full partitionkeypath 
+            //reading an item with the full partitionkeypath ,this is currently treated as a point read with 1 RU 
 
             Container container = client.GetDatabase("test1").GetContainer("testcontainer");
-            Console.WriteLine($"The container is {container.Id}");
-            // Create new item
-
+            Console.WriteLine($"The container is {container.Id}");           
             var id = "cf660be1-464b-4c50-9928-884a6773d4e8";
             var partitionkeypath = new PartitionKeyBuilder().Add("Contoso").Add("Michael").Add("1001").Build();
 
@@ -90,7 +89,7 @@ namespace Hierarchial_Partition_CosmosDB
 
             Console.WriteLine($"The item {itemResponse.Resource.TenantId} read from the database with RU {itemResponse.RequestCharge}");
 
-            //querying different permutation combination 
+            //querying with all the levels of the hierarchial partition key 
 
             QueryDefinition query1 = new QueryDefinition("select * from c where c.TenantId = @TenantIdinput and c.UserId = @UserIdinput and c.TransactionId = @TransactionIdinput")
                 .WithParameter("@TenantIdinput", "Contoso")
@@ -107,6 +106,8 @@ namespace Hierarchial_Partition_CosmosDB
 
                 }
             }
+
+            //querying with the first two levels of hierarchy partition keys 
             List<PaymentEvent> allPaymentEvents = new List<PaymentEvent>();
             QueryDefinition query2 = new QueryDefinition("select * from c where c.TenantId = @Tenantidinput and c.UserId = @UserIdinput ")
                                         .WithParameter("@Tenantidinput", "Contoso")
@@ -127,6 +128,8 @@ namespace Hierarchial_Partition_CosmosDB
                 }
             }
 
+            //querying with just the first level of the hierarchial partition key 
+
             QueryDefinition query3 = new QueryDefinition("select * from c where c.TenantId = @TenantIdinput")
                 .WithParameter("@TenantIdinput", "Contoso");
 
@@ -143,6 +146,8 @@ namespace Hierarchial_Partition_CosmosDB
 
                 }
             }
+
+            //querying with the second level alone 
 
             QueryDefinition query4 = new QueryDefinition("select * from c where c.UserId =@UserIdinput")
                 .WithParameter("@UserIdinput", "Alice");
