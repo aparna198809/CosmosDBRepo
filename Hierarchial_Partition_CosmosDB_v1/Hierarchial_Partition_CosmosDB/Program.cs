@@ -111,13 +111,50 @@ namespace Hierarchial_Partition_CosmosDB
                 while(iterator.HasMoreResults)
                 {
                     FeedResponse<PaymentEvent> response =await iterator.ReadNextAsync();
-                    PaymentEvent resultevent = response.First();
-                    Console.WriteLine($"\nFound item with TenantId: {resultevent.TenantId}; UserId: {resultevent.UserId}");
-                    Console.WriteLine($"The request charge is {response.RequestCharge}");
-                    allPaymentEvents.AddRange(response);
+                    foreach (var item in response)
+                    {
+                        Console.WriteLine($"\nFound item with TenantId: {item.TenantId}; UserId: {item.UserId}");
+                        Console.WriteLine($"The request charge is {response.RequestCharge}");
+                        allPaymentEvents.AddRange(response);
+                    }
 
                 }
             }
+
+            QueryDefinition query3 = new QueryDefinition("select * from c where c.TenantId = @TenantIdinput")
+                .WithParameter("@TenantIdinput", "Contoso");
+
+            using (FeedIterator<PaymentEvent> iterator = container.GetItemQueryIterator<PaymentEvent>(query3))
+            {
+                while (iterator.HasMoreResults)
+                {
+                    FeedResponse<PaymentEvent> response = await iterator.ReadNextAsync();
+                    foreach (var item in response)
+                    {
+                        Console.WriteLine($"\nFound item with TenantId: {item.TenantId}");
+                        Console.WriteLine($"The request charge is {response.RequestCharge}");
+                    }
+
+                }
+            }
+
+            QueryDefinition query4 = new QueryDefinition("select * from c where c.UserId =@UserIdinput")
+                .WithParameter("@UserIdinput", "Alice");
+
+            using (FeedIterator<PaymentEvent> iterator = container.GetItemQueryIterator<PaymentEvent>(query4))
+            {
+                while(iterator.HasMoreResults)
+                {
+                    FeedResponse<PaymentEvent> response = await iterator.ReadNextAsync();
+                    foreach(var item in response)
+                    {
+                        Console.WriteLine($"\nFound item with UserId: {item.UserId}");
+                        Console.WriteLine($"The request charge is {response.RequestCharge}");
+                    }
+                }    
+            }
+
+
 
             
 
