@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Aparna\\git\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\Hierarchial_Partition_CosmosDB.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Aparna\\git\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\Hierarchial_Partition_CosmosDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Aparna\\git\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\Hierarchial_Partition_CosmosDB.csproj",
+        "projectName": "Hierarchial_Partition_CosmosDB",
+        "projectPath": "C:\\Users\\Aparna\\git\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\Hierarchial_Partition_CosmosDB.csproj",
+        "packagesPath": "C:\\Users\\Aparna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aparna\\git\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aparna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.33.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
