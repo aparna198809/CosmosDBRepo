@@ -17,8 +17,7 @@ namespace Hierarchial_Partition_CosmosDB
     }
     class Program
     {
-        private static readonly string uri = "https://testactru.documents.azure.com:443/";
-      //  private static readonly string key = "ldBiqHg8u7QxyRtAgvq2gMUpQcDE4HlcxLvyTabuyX02t1zTasXXdOO2GX2QbRT83IMJdAiVGp3vACDbTERtmQ==";
+        private static readonly string uri = "https://testactru.documents.azure.com:443/";      
         private static readonly string databasename = "test1";
         private static readonly string containername = "testcontainer";
 
