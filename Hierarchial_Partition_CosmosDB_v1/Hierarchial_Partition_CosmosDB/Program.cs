@@ -2,6 +2,9 @@
 using System.Drawing.Text;
 using Azure;
 using Microsoft.Azure.Cosmos;
+using Azure.Identity;
+
+
 
 namespace Hierarchial_Partition_CosmosDB
 {
@@ -15,13 +18,17 @@ namespace Hierarchial_Partition_CosmosDB
     class Program
     {
         private static readonly string uri = "https://testactru.documents.azure.com:443/";
-        private static readonly string key = "ldBiqHg8u7QxyRtAgvq2gMUpQcDE4HlcxLvyTabuyX02t1zTasXXdOO2GX2QbRT83IMJdAiVGp3vACDbTERtmQ==";
+      //  private static readonly string key = "ldBiqHg8u7QxyRtAgvq2gMUpQcDE4HlcxLvyTabuyX02t1zTasXXdOO2GX2QbRT83IMJdAiVGp3vACDbTERtmQ==";
         private static readonly string databasename = "test1";
         private static readonly string containername = "testcontainer";
+
+
         public static async Task Main(String[] args)
-        {         
+        {
             //connecting to cosmos db
-            CosmosClient client = new CosmosClient(uri, key);
+
+            var tokenCredential = new DefaultAzureCredential();
+            CosmosClient client = new CosmosClient(uri, tokenCredential);
             Console.WriteLine("Connection established");
 
             //creating the database  

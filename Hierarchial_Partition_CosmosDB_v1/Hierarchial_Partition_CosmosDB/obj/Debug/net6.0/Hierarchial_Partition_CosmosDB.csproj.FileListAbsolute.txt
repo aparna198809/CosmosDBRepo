@@ -90,3 +90,7 @@ C:\Users\Aparna\git\myrepo\Hierarchial_Partition_CosmosDB_v1\Hierarchial_Partiti
 C:\Users\Aparna\git\myrepo\Hierarchial_Partition_CosmosDB_v1\Hierarchial_Partition_CosmosDB\obj\Debug\net6.0\Hierarchial_Partition_CosmosDB.pdb
 C:\Users\Aparna\git\myrepo\Hierarchial_Partition_CosmosDB_v1\Hierarchial_Partition_CosmosDB\obj\Debug\net6.0\Hierarchial_Partition_CosmosDB.genruntimeconfig.cache
 C:\Users\Aparna\git\myrepo\Hierarchial_Partition_CosmosDB_v1\Hierarchial_Partition_CosmosDB\obj\Debug\net6.0\ref\Hierarchial_Partition_CosmosDB.dll
+C:\Users\Aparna\git\myrepo\Hierarchial_Partition_CosmosDB_v1\Hierarchial_Partition_CosmosDB\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Aparna\git\myrepo\Hierarchial_Partition_CosmosDB_v1\Hierarchial_Partition_CosmosDB\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Aparna\git\myrepo\Hierarchial_Partition_CosmosDB_v1\Hierarchial_Partition_CosmosDB\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Aparna\git\myrepo\Hierarchial_Partition_CosmosDB_v1\Hierarchial_Partition_CosmosDB\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
