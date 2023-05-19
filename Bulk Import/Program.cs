@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Diagnostics;
 using System.Text.Json;
+using Azure.Identity;
+using Bogus;
 
 public class Item {
     public string id {get; set;}
@@ -17,18 +19,18 @@ namespace Bulk_Import
     class Program
     {
 
-        private static readonly string _uri = "https://mycosmosdbfnapp1809.documents.azure.com:443/";
-        private static readonly string _passkey = "h6TjkmopAczL1TotbMhMN5WFnfoCxP80k0TwYdktV2LarI9kmAA8xys2S4zMrDuUdB0k393KJ2gRACDbyaZxRg==";
-        private static readonly string _databasename ="bulkimporttest";
-        private static readonly string _containername ="bulkimporttest";
+        private static readonly string uri = "https://testactru.documents.azure.com:443/";
+        private static readonly string _databasename ="test1";
+        private static readonly string _containername ="testcontainer";
         
 
         public static async Task Main(String[] args)
         {
             //establishing connection with cosmos db 
 
-         //   CosmosClient cosmosclient = new CosmosClient(_uri,_passkey, new CosmosClientOptions(){AllowBulkExecution = true});
-            CosmosClient cosmosclient = new CosmosClient(_uri,_passkey);
+            //   CosmosClient cosmosclient = new CosmosClient(_uri,_passkey, new CosmosClientOptions(){AllowBulkExecution = true});
+            var tokenCredential = new DefaultAzureCredential();
+            CosmosClient cosmosclient = new CosmosClient(uri,tokenCredential);
             Console.WriteLine("The connection established successfully");
 
             //creating a database 
@@ -38,16 +40,11 @@ namespace Bulk_Import
 
             //creating a collection with no indexes defined
 
-            Container container = await database.DefineContainer(_containername,"/pk")
-                                                .WithIndexingPolicy()
-                                                .WithIndexingMode(IndexingMode.Consistent)
-                                                .WithIncludedPaths()
-                                                .Attach()
-                                                .WithExcludedPaths()
-                                                .Path("/*")
-                                                .Attach()
-                                            .Attach()
-                                            .CreateAsync(20000);
+            List<string> keypaths = new List<String> { "/TenantId", "/UserId", "/TransactionId" };
+
+            ContainerProperties prop = new ContainerProperties(id: _containername, partitionKeyPaths: keypaths);
+
+            Container container = await database.CreateContainerIfNotExistsAsync(prop,throughput:4000);
 
             Console.WriteLine($"The container {container.Id} is successfully created");
 
@@ -87,11 +84,12 @@ namespace Bulk_Import
 
 
         public static IReadOnlyCollection<Item> getitemtoinsert(){
-            var occupations = new string[] { "gardener", "teacher", "writer", "programmer" };
+            var Tenantslist = new string[] { "Microsoft", "Google", "Contoso", "Amazon" };
             return new Bogus.Faker<Item>()
             .RuleFor(o=>o.id,f=>Guid.NewGuid().ToString())
-            .RuleFor(o=>o.pk, f=>f.PickRandom(occupations))
-            .RuleFor(o=>o.username,f=>f.Internet.UserName())
+            .RuleFor(o=>o.TenantId, f=>f.PickRandom(Tenantslist))
+            .RuleFor(o=>o.UserId, f=>f.Internet.UserName())
+            .RuleFor(o=>o.TransactionId,f=>)
             .Generate(400000);
         }
     }
