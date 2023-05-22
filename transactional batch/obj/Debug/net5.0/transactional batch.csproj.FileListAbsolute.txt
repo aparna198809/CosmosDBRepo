@@ -96,3 +96,56 @@ C:\Users\aparnaram\OneDrive - Microsoft\Cosmos DB\Cosmos Labs\transactional batc
 C:\Users\aparnaram\OneDrive - Microsoft\Cosmos DB\Cosmos Labs\transactional batch\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
 C:\Users\aparnaram\OneDrive - Microsoft\Cosmos DB\Cosmos Labs\transactional batch\obj\Debug\net5.0\transactional batch.csproj.CopyComplete
 C:\Users\aparnaram\OneDrive - Microsoft\Cosmos DB\Cosmos Labs\transactional batch\obj\Debug\net5.0\transactional batch.genruntimeconfig.cache
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Cosmos.CRTCompat.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\msvcp140.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\vcruntime140.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\vcruntime140_1.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\transactional batch.exe
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\transactional batch.deps.json
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\transactional batch.runtimeconfig.json
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\transactional batch.runtimeconfig.dev.json
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\transactional batch.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\transactional batch.pdb
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Azure.Core.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Azure.Identity.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Microsoft.Azure.Cosmos.Client.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Microsoft.Azure.Cosmos.Core.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Microsoft.Azure.Cosmos.Direct.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\System.Memory.Data.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\System.Security.AccessControl.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\System.Security.Permissions.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\System.Windows.Extensions.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\runtimes\win-x64\native\Cosmos.CRTCompat.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\runtimes\win-x64\native\msvcp140.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\runtimes\win-x64\native\vcruntime140.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\runtimes\win-x64\native\vcruntime140_1.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.AccessControl.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Aparna\git\myrepo\transactional batch\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\Aparna\git\myrepo\transactional batch\obj\Debug\net5.0\transactional batch.csproj.AssemblyReference.cache
+C:\Users\Aparna\git\myrepo\transactional batch\obj\Debug\net5.0\transactional batch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aparna\git\myrepo\transactional batch\obj\Debug\net5.0\transactional batch.AssemblyInfoInputs.cache
+C:\Users\Aparna\git\myrepo\transactional batch\obj\Debug\net5.0\transactional batch.AssemblyInfo.cs
+C:\Users\Aparna\git\myrepo\transactional batch\obj\Debug\net5.0\transactional batch.csproj.CoreCompileInputs.cache
+C:\Users\Aparna\git\myrepo\transactional batch\obj\Debug\net5.0\transactional batch.csproj.CopyComplete
+C:\Users\Aparna\git\myrepo\transactional batch\obj\Debug\net5.0\transactional batch.dll
+C:\Users\Aparna\git\myrepo\transactional batch\obj\Debug\net5.0\refint\transactional batch.dll
+C:\Users\Aparna\git\myrepo\transactional batch\obj\Debug\net5.0\transactional batch.pdb
+C:\Users\Aparna\git\myrepo\transactional batch\obj\Debug\net5.0\transactional batch.genruntimeconfig.cache
+C:\Users\Aparna\git\myrepo\transactional batch\obj\Debug\net5.0\ref\transactional batch.dll

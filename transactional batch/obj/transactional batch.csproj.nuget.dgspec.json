@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aparnaram\\OneDrive - Microsoft\\Cosmos DB\\Cosmos Labs\\transactional batch\\transactional batch.csproj": {}
+    "C:\\Users\\Aparna\\git\\myrepo\\transactional batch\\transactional batch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aparnaram\\OneDrive - Microsoft\\Cosmos DB\\Cosmos Labs\\transactional batch\\transactional batch.csproj": {
+    "C:\\Users\\Aparna\\git\\myrepo\\transactional batch\\transactional batch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aparnaram\\OneDrive - Microsoft\\Cosmos DB\\Cosmos Labs\\transactional batch\\transactional batch.csproj",
+        "projectUniqueName": "C:\\Users\\Aparna\\git\\myrepo\\transactional batch\\transactional batch.csproj",
         "projectName": "transactional batch",
-        "projectPath": "C:\\Users\\aparnaram\\OneDrive - Microsoft\\Cosmos DB\\Cosmos Labs\\transactional batch\\transactional batch.csproj",
-        "packagesPath": "C:\\Users\\aparnaram\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aparnaram\\OneDrive - Microsoft\\Cosmos DB\\Cosmos Labs\\transactional batch\\obj\\",
+        "projectPath": "C:\\Users\\Aparna\\git\\myrepo\\transactional batch\\transactional batch.csproj",
+        "packagesPath": "C:\\Users\\Aparna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aparna\\git\\myrepo\\transactional batch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aparnaram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aparna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
             "Microsoft.Azure.Cosmos": {
               "target": "Package",
               "version": "[3.29.0, )"
@@ -51,7 +55,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -65,6 +70,10 @@
               "version": "[5.0.17, 5.0.17]"
             },
             {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
               "name": "Microsoft.WindowsDesktop.App.Ref",
               "version": "[5.0.0, 5.0.0]"
             }
@@ -74,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

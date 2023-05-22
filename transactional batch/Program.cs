@@ -5,8 +5,10 @@ using System.Collections.Generic;
 using System.Net;
 using Microsoft.Azure.Cosmos;
 using Newtonsoft.Json;
+using Azure.Identity;
 
-       public class Product
+
+public class Product
             {
                 public string id { get; set; }
                 public string productid { get; set; }
@@ -30,7 +32,7 @@ using Newtonsoft.Json;
  
 
    private static readonly string _uri ="https://sqlapiserverlessdevtstaparna.documents.azure.com:443/";
-    private static readonly string _passkey ="5OpeiefthbH5sWLhB92q2mjSllJx2iTy7qBW9dLNCuHsrAtLnJBQJyGyJ5PYSeItMmiq9uAXCxIy43rjoiXG8g==";
+    
 
     private CosmosClient client ;
     private Database database;
@@ -41,9 +43,10 @@ using Newtonsoft.Json;
          
 
         private static async Task Main(string[] args)
-        {  
+        {
+            var tokenCredential = new DefaultAzureCredential();
 
-         CosmosClient client = new CosmosClient(_uri,_passkey);
+         CosmosClient client = new CosmosClient(_uri,tokenCredential);
          Console.WriteLine("The connection established");
          Database database = client.GetDatabase(databasename);
          Container container = database.GetContainer(containername);

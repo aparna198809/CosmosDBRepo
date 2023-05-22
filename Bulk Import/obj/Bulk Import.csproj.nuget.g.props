@@ -5,20 +5,17 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\aparnaram\.nuget\packages\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Aparna\.nuget\packages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.11.2</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.6.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\aparnaram\.nuget\packages\" />
+    <SourceRoot Include="C:\Users\Aparna\.nuget\packages\" />
   </ItemGroup>
-  <PropertyGroup>
-    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
-  </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Content Include="$(NuGetPackageRoot)microsoft.azure.cosmos\3.31.2\contentFiles\any\netstandard2.0\ThirdPartyNotice.txt" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.cosmos\3.31.2\contentFiles\any\netstandard2.0\ThirdPartyNotice.txt')">
+    <Content Include="$(NuGetPackageRoot)microsoft.azure.cosmos\3.33.0\contentFiles\any\netstandard2.0\ThirdPartyNotice.txt" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.cosmos\3.33.0\contentFiles\any\netstandard2.0\ThirdPartyNotice.txt')">
       <NuGetPackageId>Microsoft.Azure.Cosmos</NuGetPackageId>
-      <NuGetPackageVersion>3.31.2</NuGetPackageVersion>
+      <NuGetPackageVersion>3.33.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Pack>false</Pack>
       <Private>False</Private>
@@ -26,6 +23,6 @@
     </Content>
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\aparnaram\.nuget\packages\newtonsoft.json\10.0.2</PkgNewtonsoft_Json>
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\Aparna\.nuget\packages\newtonsoft.json\10.0.2</PkgNewtonsoft_Json>
   </PropertyGroup>
 </Project>
