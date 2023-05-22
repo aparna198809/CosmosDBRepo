@@ -6,12 +6,13 @@ using System.IO;
 using System.Diagnostics;
 using System.Text.Json;
 using Azure.Identity;
-using Bogus;
 
 public class Item {
     public string id {get; set;}
-    public string pk {get; set; }
-    public string username {get; set;}
+    public string TenantId {get; set; }
+    public string UserId {get; set;}
+
+    public string TransactionId { get; set; }
 }
 
 namespace Bulk_Import
@@ -66,7 +67,7 @@ namespace Bulk_Import
                 //get a list of tasks 
                 List<Task> task = new List<Task>(40000);
                 foreach (Item item in itemresp){
-                    task.Add(cont.CreateItemAsync(item,new PartitionKey(item.pk)));
+                    task.Add(cont.CreateItemAsync(item,new PartitionKey(item.id)));
                 }
 
                 await Task.WhenAll(task);
@@ -89,7 +90,7 @@ namespace Bulk_Import
             .RuleFor(o=>o.id,f=>Guid.NewGuid().ToString())
             .RuleFor(o=>o.TenantId, f=>f.PickRandom(Tenantslist))
             .RuleFor(o=>o.UserId, f=>f.Internet.UserName())
-            .RuleFor(o=>o.TransactionId,f=>)
+            .RuleFor(o=>o.TransactionId,f=>Guid.NewGuid().ToString())
             .Generate(400000);
         }
     }

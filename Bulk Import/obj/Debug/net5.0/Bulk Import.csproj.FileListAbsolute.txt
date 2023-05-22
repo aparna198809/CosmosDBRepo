@@ -98,3 +98,57 @@ C:\Users\aparnaram\OneDrive - Microsoft\Cosmos DB\Cosmos Labs\Bulk Import\obj\De
 C:\Users\aparnaram\OneDrive - Microsoft\Cosmos DB\Cosmos Labs\Bulk Import\obj\Debug\net5.0\ref\Bulk Import.dll
 C:\Users\aparnaram\OneDrive - Microsoft\Cosmos DB\Cosmos Labs\Bulk Import\obj\Debug\net5.0\Bulk Import.pdb
 C:\Users\aparnaram\OneDrive - Microsoft\Cosmos DB\Cosmos Labs\Bulk Import\obj\Debug\net5.0\Bulk Import.genruntimeconfig.cache
+C:\Users\Aparna\git\myrepo\Bulk Import\obj\Debug\net5.0\Bulk Import.csproj.AssemblyReference.cache
+C:\Users\Aparna\git\myrepo\Bulk Import\obj\Debug\net5.0\Bulk Import.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aparna\git\myrepo\Bulk Import\obj\Debug\net5.0\Bulk Import.AssemblyInfoInputs.cache
+C:\Users\Aparna\git\myrepo\Bulk Import\obj\Debug\net5.0\Bulk Import.AssemblyInfo.cs
+C:\Users\Aparna\git\myrepo\Bulk Import\obj\Debug\net5.0\Bulk Import.csproj.CoreCompileInputs.cache
+C:\Users\Aparna\git\myrepo\Bulk Import\obj\Debug\net5.0\Bulk Import.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\obj\Debug\net5.0\Bulk Import.pdb
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Cosmos.CRTCompat.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\msvcp140.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\vcruntime140.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\vcruntime140_1.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Bulk Import.exe
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Bulk Import.deps.json
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Bulk Import.runtimeconfig.json
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Bulk Import.runtimeconfig.dev.json
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Bulk Import.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Bulk Import.pdb
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Azure.Core.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Azure.Identity.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Bogus.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Microsoft.Azure.Cosmos.Client.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Microsoft.Azure.Cosmos.Core.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Microsoft.Azure.Cosmos.Direct.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\System.Memory.Data.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\System.Security.AccessControl.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\System.Security.Permissions.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\System.Windows.Extensions.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\runtimes\win-x64\native\Cosmos.CRTCompat.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\runtimes\win-x64\native\msvcp140.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\runtimes\win-x64\native\vcruntime140.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\runtimes\win-x64\native\vcruntime140_1.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.AccessControl.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\obj\Debug\net5.0\Bulk Import.csproj.CopyComplete
+C:\Users\Aparna\git\myrepo\Bulk Import\obj\Debug\net5.0\refint\Bulk Import.dll
+C:\Users\Aparna\git\myrepo\Bulk Import\obj\Debug\net5.0\Bulk Import.genruntimeconfig.cache
+C:\Users\Aparna\git\myrepo\Bulk Import\obj\Debug\net5.0\ref\Bulk Import.dll

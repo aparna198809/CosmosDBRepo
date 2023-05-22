@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/transactional batch/.vs/transactional batch/DesignTimeBuild/.dtbcache.v2
+/.gitignore
