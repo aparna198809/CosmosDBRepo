@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aparna\\git\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\Hierarchial_Partition_CosmosDB.csproj": {}
+    "C:\\Users\\aparnaram\\OneDrive - Microsoft\\Github\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\Hierarchial_Partition_CosmosDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aparna\\git\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\Hierarchial_Partition_CosmosDB.csproj": {
+    "C:\\Users\\aparnaram\\OneDrive - Microsoft\\Github\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\Hierarchial_Partition_CosmosDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aparna\\git\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\Hierarchial_Partition_CosmosDB.csproj",
+        "projectUniqueName": "C:\\Users\\aparnaram\\OneDrive - Microsoft\\Github\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\Hierarchial_Partition_CosmosDB.csproj",
         "projectName": "Hierarchial_Partition_CosmosDB",
-        "projectPath": "C:\\Users\\Aparna\\git\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\Hierarchial_Partition_CosmosDB.csproj",
-        "packagesPath": "C:\\Users\\Aparna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aparna\\git\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\obj\\",
+        "projectPath": "C:\\Users\\aparnaram\\OneDrive - Microsoft\\Github\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\Hierarchial_Partition_CosmosDB.csproj",
+        "packagesPath": "C:\\Users\\aparnaram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aparnaram\\OneDrive - Microsoft\\Github\\myrepo\\Hierarchial_Partition_CosmosDB_v1\\Hierarchial_Partition_CosmosDB\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Aparna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aparnaram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

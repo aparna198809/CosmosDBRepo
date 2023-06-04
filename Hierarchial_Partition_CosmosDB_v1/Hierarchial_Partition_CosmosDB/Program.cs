@@ -165,9 +165,19 @@ namespace Hierarchial_Partition_CosmosDB
                 }    
             }
 
+            //deleting an item with a hierarchial partition key 
+
+   
+            var delid = "d48abb27-9d67-4121-b410-2f501d306406";
+            var partitionkeypathdel = new PartitionKeyBuilder().Add("Contoso").Add("Alice").Add("d8bb234e-07c2-4bed-b8c4-2ce15ba5e46b").Build();
+
+            ItemResponse<PaymentEvent> itemresp3 = await cont.DeleteItemAsync<PaymentEvent>(delid, partitionkeypathdel);
+            Console.WriteLine($"The documented {itemresp3.Resource} deleted with RU {itemresp3.RequestCharge}");
 
 
-            
+
+
+
 
         }
 
