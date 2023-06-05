@@ -1,0 +1,50 @@
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Cosmos.CRTCompat.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\msvcp140.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\vcruntime140.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\vcruntime140_1.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Cosmos DB Computed Properties.exe
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Cosmos DB Computed Properties.deps.json
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Cosmos DB Computed Properties.runtimeconfig.json
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Cosmos DB Computed Properties.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Cosmos DB Computed Properties.pdb
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Microsoft.Azure.Cosmos.Client.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Microsoft.Azure.Cosmos.Core.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Microsoft.Azure.Cosmos.Direct.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Microsoft.Bcl.HashCode.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\runtimes\win-x64\native\Cosmos.CRTCompat.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\runtimes\win-x64\native\msvcp140.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\runtimes\win-x64\native\vcruntime140.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\runtimes\win-x64\native\vcruntime140_1.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\obj\Debug\net6.0\Cosmos DB Computed Properties.csproj.AssemblyReference.cache
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\obj\Debug\net6.0\Cosmos DB Computed Properties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\obj\Debug\net6.0\Cosmos DB Computed Properties.AssemblyInfoInputs.cache
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\obj\Debug\net6.0\Cosmos DB Computed Properties.AssemblyInfo.cs
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\obj\Debug\net6.0\Cosmos DB Computed Properties.csproj.CoreCompileInputs.cache
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\obj\Debug\net6.0\Cosmos DB Computed Properties.csproj.CopyComplete
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\obj\Debug\net6.0\Cosmos DB Computed Properties.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\obj\Debug\net6.0\refint\Cosmos DB Computed Properties.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\obj\Debug\net6.0\Cosmos DB Computed Properties.pdb
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\obj\Debug\net6.0\Cosmos DB Computed Properties.genruntimeconfig.cache
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Computed Properties\Cosmos DB Computed Properties\Cosmos DB Computed Properties\obj\Debug\net6.0\ref\Cosmos DB Computed Properties.dll
