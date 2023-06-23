@@ -1,0 +1,20 @@
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\obj\Debug\net7.0\OCR Image to Text.csproj.AssemblyReference.cache
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\obj\Debug\net7.0\OCR Image to Text.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\obj\Debug\net7.0\OCR Image to Text.AssemblyInfoInputs.cache
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\obj\Debug\net7.0\OCR Image to Text.AssemblyInfo.cs
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\obj\Debug\net7.0\OCR Image to Text.csproj.CoreCompileInputs.cache
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\bin\Debug\net7.0\OCR Image to Text.exe
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\bin\Debug\net7.0\OCR Image to Text.deps.json
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\bin\Debug\net7.0\OCR Image to Text.runtimeconfig.json
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\bin\Debug\net7.0\OCR Image to Text.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\bin\Debug\net7.0\OCR Image to Text.pdb
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\bin\Debug\net7.0\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\bin\Debug\net7.0\Microsoft.Rest.ClientRuntime.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\bin\Debug\net7.0\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\obj\Debug\net7.0\OCR Image to Text.csproj.CopyComplete
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\obj\Debug\net7.0\OCR Image to Text.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\obj\Debug\net7.0\refint\OCR Image to Text.dll
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\obj\Debug\net7.0\OCR Image to Text.pdb
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\obj\Debug\net7.0\OCR Image to Text.genruntimeconfig.cache
+C:\Users\aparnaram\OneDrive - Microsoft\Github\myrepo\Cognitive Services OCR\OCR Image to Text\OCR Image to Text\obj\Debug\net7.0\ref\OCR Image to Text.dll
