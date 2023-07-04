@@ -14,6 +14,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Azure.Documents;
 using Azure.Storage.Blobs.Models;
 using Microsoft.Azure.Cosmos.Serialization.HybridRow;
+using Azure.Identity;
 
 namespace ChangeFeedSample
 {
