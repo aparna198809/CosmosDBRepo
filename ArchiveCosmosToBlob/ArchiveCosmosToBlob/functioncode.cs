@@ -36,10 +36,13 @@ namespace ChangeFeedSample
             {
                 log.LogInformation("Documents modified: " + documents.Count);
 
-                BlobServiceClient blobServiceClient = new BlobServiceClient("DefaultEndpointsProtocol=https;AccountName=csg10032001cc580621;AccountKey=dkfFGxMvFxt0gOHvBPc0LoF7KH94qyzafAvDdGaceYh/rwjD/wuL/GhQ5GYG3ZHvlK/JEeI0Z1+ZG1khSF5B5Q==;EndpointSuffix=core.windows.net");
+                string uri = "https://csg10032001cc580621.blob.core.windows.net/";
+
+                BlobServiceClient blobServiceClient = new BlobServiceClient(uri, new DefaultAzureCredential());
 
                 string containerName = "quickstartblobs" + Guid.NewGuid().ToString();
-                var connectionString = "DefaultEndpointsProtocol=https;AccountName=csg10032001cc580621;AccountKey=dkfFGxMvFxt0gOHvBPc0LoF7KH94qyzafAvDdGaceYh/rwjD/wuL/GhQ5GYG3ZHvlK/JEeI0Z1+ZG1khSF5B5Q==;EndpointSuffix=core.windows.net";
+                string connectionString = ConnectionString;
+               
 
                 BlobContainerClient container = new BlobContainerClient(connectionString, containerName);
                 container.Create();
