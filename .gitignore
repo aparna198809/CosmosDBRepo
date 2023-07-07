@@ -1,7 +1,0 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/transactional batch/.vs/transactional batch/DesignTimeBuild/.dtbcache.v2
-/.gitignore
-/TableApiCrudOperations/.vs/TableApiCrudOperations/FileContentIndex/868734b4-0e3a-494b-9c94-3794871aec13.vsidx
