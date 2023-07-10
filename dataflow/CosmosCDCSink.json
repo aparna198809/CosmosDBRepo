@@ -50,7 +50,7 @@
 				"     insertable: false,",
 				"     updateable: true,",
 				"     upsertable: false,",
-				"     keys:['_rid']) ~> StorageAccountSink"
+				"     keys:[(array('id','_rid'))]) ~> StorageAccountSink"
 			]
 		}
 	}
