@@ -39,7 +39,7 @@
 				"     captureTxnTTLDeletes: true,",
 				"     store: 'cosmosDB') ~> cosmos",
 				"cosmos sink(allowSchemaDrift: true,",
-				"     validateSchema: true,",
+				"     validateSchema: false,",
 				"     format: 'delta',",
 				"     container: 'output',",
 				"     mergeSchema: false,",
@@ -50,9 +50,7 @@
 				"     insertable: false,",
 				"     updateable: true,",
 				"     upsertable: false,",
-				"     keys:['id'],",
-				"     skipDuplicateMapInputs: true,",
-				"     skipDuplicateMapOutputs: true) ~> StorageAccountSink"
+				"     keys:['id']) ~> StorageAccountSink"
 			]
 		}
 	}
