@@ -1,0 +1,66 @@
+{
+	"name": "CosmosCDCSink",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"linkedService": {
+						"referenceName": "CosmosDbNoSqlLS",
+						"type": "LinkedServiceReference"
+					},
+					"name": "cosmos"
+				}
+			],
+			"sinks": [
+				{
+					"linkedService": {
+						"referenceName": "BlobLS",
+						"type": "LinkedServiceReference"
+					},
+					"name": "StorageAccountSink",
+					"rejectedDataLinkedService": {
+						"referenceName": "BlobLS",
+						"type": "LinkedServiceReference"
+					}
+				}
+			],
+			"transformations": [],
+			"scriptLines": [
+				"source(output(",
+				"          {_rid} as string,",
+				"          {_ts} as long,",
+				"          id as string,",
+				"          isAlive as boolean,",
+				"          FirstName as string,",
+				"          LastName as string,",
+				"          {_etag} as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     container: 'sampleContainer',",
+				"     storeType: 'olap',",
+				"     format: 'document',",
+				"     enableChangeFeed: true,",
+				"     changeFeedStartFromTheBeginning: true,",
+				"     captureIntermediateUpdate: false,",
+				"     captureUserDeletes: true,",
+				"     captureTxnTTLDeletes: true,",
+				"     store: 'cosmosDB') ~> cosmos",
+				"cosmos sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     format: 'delta',",
+				"     container: 'output',",
+				"     mergeSchema: false,",
+				"     autoCompact: false,",
+				"     optimizedWrite: false,",
+				"     vacuum: 0,",
+				"     deletable: true,",
+				"     insertable: false,",
+				"     updateable: true,",
+				"     upsertable: false,",
+				"     keys:['id']) ~> StorageAccountSink"
+			]
+		}
+	}
+}
