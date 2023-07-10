@@ -1,0 +1,9 @@
+{
+	"name": "mydatfact1809",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c901c981-5d0a-4bca-bb3b-397ea020a795",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
