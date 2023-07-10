@@ -27,8 +27,8 @@
 			],
 			"transformations": [],
 			"scriptLines": [
-				"source(allowSchemaDrift: false,",
-				"     validateSchema: true,",
+				"source(allowSchemaDrift: true,",
+				"     validateSchema: false,",
 				"     container: 'sampleContainer',",
 				"     storeType: 'olap',",
 				"     format: 'document',",
