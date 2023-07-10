@@ -42,6 +42,7 @@
 				"     validateSchema: false,",
 				"     format: 'delta',",
 				"     container: 'output',",
+				"     overwrite: true,",
 				"     mergeSchema: false,",
 				"     autoCompact: false,",
 				"     optimizedWrite: false,",
@@ -50,7 +51,7 @@
 				"     insertable: false,",
 				"     updateable: true,",
 				"     upsertable: false,",
-				"     keys:['id']) ~> StorageAccountSink"
+				"     keys:['_rid']) ~> StorageAccountSink"
 			]
 		}
 	}
