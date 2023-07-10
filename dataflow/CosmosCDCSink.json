@@ -38,6 +38,7 @@
 				"     validateSchema: false,",
 				"     format: 'delta',",
 				"     container: 'output',",
+				"     overwrite: true,",
 				"     mergeSchema: false,",
 				"     autoCompact: false,",
 				"     optimizedWrite: false,",
