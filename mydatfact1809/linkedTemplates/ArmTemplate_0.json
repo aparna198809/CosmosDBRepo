@@ -119,7 +119,7 @@
 			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/ADFDataPipelineCosmosDB')]",
+			"name": "[concat(parameters('factoryName'), '/ADFCDCCosmosDB')]",
 			"type": "Microsoft.DataFactory/factories/pipelines",
 			"apiVersion": "2018-06-01",
 			"properties": {
@@ -175,7 +175,7 @@
 				"pipelines": [
 					{
 						"pipelineReference": {
-							"referenceName": "ADFDataPipelineCosmosDB",
+							"referenceName": "ADFCDCCosmosDB",
 							"type": "PipelineReference"
 						},
 						"parameters": {}
@@ -192,7 +192,7 @@
 				}
 			},
 			"dependsOn": [
-				"[concat(variables('factoryId'), '/pipelines/ADFDataPipelineCosmosDB')]"
+				"[concat(variables('factoryId'), '/pipelines/ADFCDCCosmosDB')]"
 			]
 		}
 	]
