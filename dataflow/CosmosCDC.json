@@ -5,6 +5,10 @@
 		"typeProperties": {
 			"sources": [
 				{
+					"linkedService": {
+						"referenceName": "CosmosDbNoSqlLS",
+						"type": "LinkedServiceReference"
+					},
 					"name": "cosmos"
 				}
 			],
@@ -12,7 +16,16 @@
 			"transformations": [],
 			"scriptLines": [
 				"source(allowSchemaDrift: true,",
-				"     validateSchema: false) ~> cosmos"
+				"     validateSchema: false,",
+				"     container: 'sampleContainer',",
+				"     storeType: 'olap',",
+				"     format: 'document',",
+				"     enableChangeFeed: true,",
+				"     changeFeedStartFromTheBeginning: true,",
+				"     captureIntermediateUpdate: false,",
+				"     captureUserDeletes: true,",
+				"     captureTxnTTLDeletes: true,",
+				"     store: 'cosmosDB') ~> cosmos"
 			]
 		}
 	}
