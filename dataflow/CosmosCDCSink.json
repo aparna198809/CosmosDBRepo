@@ -18,7 +18,11 @@
 						"referenceName": "BlobLS",
 						"type": "LinkedServiceReference"
 					},
-					"name": "StorageAccountSink"
+					"name": "StorageAccountSink",
+					"rejectedDataLinkedService": {
+						"referenceName": "BlobLS",
+						"type": "LinkedServiceReference"
+					}
 				}
 			],
 			"transformations": [],
