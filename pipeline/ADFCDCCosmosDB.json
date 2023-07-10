@@ -1,5 +1,5 @@
 {
-	"name": "ADFDataPipelineCosmosDB",
+	"name": "ADFCDCCosmosDB",
 	"properties": {
 		"activities": [
 			{
