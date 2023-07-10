@@ -16,7 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataflow": {
-						"referenceName": "CosmosCDC",
+						"referenceName": "CosmosCDCSink",
 						"type": "DataFlowReference"
 					},
 					"compute": {
