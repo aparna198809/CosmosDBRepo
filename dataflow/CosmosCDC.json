@@ -1,0 +1,19 @@
+{
+	"name": "CosmosCDC",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"name": "cosmos"
+				}
+			],
+			"sinks": [],
+			"transformations": [],
+			"scriptLines": [
+				"source(allowSchemaDrift: true,",
+				"     validateSchema: false) ~> cosmos"
+			]
+		}
+	}
+}
