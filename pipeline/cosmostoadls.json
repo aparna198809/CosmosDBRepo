@@ -15,8 +15,174 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"enableStaging": false
-				}
+					"source": {
+						"type": "CosmosDbSqlApiSource",
+						"preferredRegions": []
+					},
+					"sink": {
+						"type": "JsonSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "JsonWriteSettings"
+						}
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"path": "$['id']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['isAlive']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['FirstName']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['LastName']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['_rid']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['_self']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['_etag']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['_attachments']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['_ts']"
+								}
+							}
+						]
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "CosmosDS",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "Json1",
+						"type": "DatasetReference"
+					}
+				]
+			},
+			{
+				"name": "Copy data2",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "CosmosDbSqlApiSource",
+						"preferredRegions": []
+					},
+					"sink": {
+						"type": "JsonSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "JsonWriteSettings"
+						}
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"path": "$['id']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['isAlive']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['FirstName']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['LastName']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['_rid']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['_self']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['_etag']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['_attachments']"
+								}
+							},
+							{
+								"source": {
+									"path": "$['_ts']"
+								}
+							}
+						]
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "CosmosDS",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "Json1",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
 		"annotations": []
