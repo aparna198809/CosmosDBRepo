@@ -1,0 +1,15 @@
+{
+	"name": "CosmosDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CosmosDbNoSqlLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {},
+		"typeProperties": {
+			"collectionName": "sampleContainer"
+		}
+	}
+}
