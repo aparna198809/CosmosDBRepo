@@ -1,9 +1,9 @@
 {
-	"name": "ADFCDCCosmosDB",
+	"name": "CDCAnalyticalStore",
 	"properties": {
 		"activities": [
 			{
-				"name": "CosmosDBDataFlow",
+				"name": "CDCDataFLow",
 				"type": "ExecuteDataFlow",
 				"dependsOn": [],
 				"policy": {

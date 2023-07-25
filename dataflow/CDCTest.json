@@ -1,0 +1,78 @@
+{
+	"name": "CDCTest",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"linkedService": {
+						"referenceName": "CosmosDbNoSqlLS",
+						"type": "LinkedServiceReference"
+					},
+					"name": "CosmosDBSource"
+				}
+			],
+			"sinks": [
+				{
+					"linkedService": {
+						"referenceName": "BlobLS",
+						"type": "LinkedServiceReference"
+					},
+					"name": "Blobsink",
+					"rejectedDataLinkedService": {
+						"referenceName": "BlobLS",
+						"type": "LinkedServiceReference"
+					}
+				}
+			],
+			"transformations": [],
+			"scriptLines": [
+				"source(output(",
+				"          {_rid} as string,",
+				"          {_ts} as long,",
+				"          id as string,",
+				"          isAlive as boolean,",
+				"          FirstName as string,",
+				"          LastName as string,",
+				"          {_etag} as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     container: 'sampleContainer',",
+				"     storeType: 'olap',",
+				"     format: 'document',",
+				"     enableChangeFeed: true,",
+				"     changeFeedStartFromTheBeginning: true,",
+				"     captureIntermediateUpdate: true,",
+				"     captureUserDeletes: true,",
+				"     captureTxnTTLDeletes: true,",
+				"     store: 'cosmosDB') ~> CosmosDBSource",
+				"CosmosDBSource sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     format: 'delta',",
+				"     container: 'cosmos-cdc',",
+				"     mergeSchema: false,",
+				"     autoCompact: false,",
+				"     optimizedWrite: false,",
+				"     vacuum: 0,",
+				"     deletable: true,",
+				"     insertable: false,",
+				"     updateable: true,",
+				"     upsertable: false,",
+				"     keys:['_rid'],",
+				"     filePattern:'CosmosDataExtract',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     mapColumn(",
+				"          {_rid},",
+				"          {_ts},",
+				"          id,",
+				"          isAlive,",
+				"          FirstName,",
+				"          LastName,",
+				"          {_etag}",
+				"     )) ~> Blobsink"
+			]
+		}
+	}
+}
